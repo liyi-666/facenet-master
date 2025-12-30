@@ -1,0 +1,50 @@
+# 大模型文件（上传到百度网盘）
+src/models/
+*.pb
+*.ckpt*
+*.pth
+*.h5
+*.onnx
+*.tar.gz
+
+# Python 缓存和编译文件
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+.pytest_cache/
+
+# 虚拟环境
+.venv/
+venv/
+env/
+
+# IDE 配置文件
+.idea/
+.vscode/
+.project
+.pydevproject
+.travis.yml
+.pylintrc
+
+# 操作系统生成的文件
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 日志和数据文件
+logs/
+data/
+tmp/
+*.pkl
+*.hdf5
+*.mat
+
+# Git LFS 相关
+.gitattributes
+
+# 其他大文件
+*.zip
+*.rar
+*.7z
